@@ -138,9 +138,6 @@ class MainWindow(QMainWindow, form_class):
         self.media_container_4.show()
         self.media_player.show()
 
-        # video = VideoPlayer()
-        # video.show()
-
     def tab_two(self, event=None, dummy=None):
         # 숨길 위젯들
         self.settings_title.hide()
