@@ -90,7 +90,7 @@ class MainWindow(QMainWindow, form_class):
         self.extract_button.clicked.connect(self.extract_video)
 
         # 유튜브 API 키
-        API_KEY = "AIzaSyAuxoo9kr49sbv4r3lcX6o2BhHPSwEOuRg"
+        API_KEY = ""
         YOUTUBE_API_SERVICE_NAME = "youtube"
         YOUTUBE_API_VERSION = "v3"
 
